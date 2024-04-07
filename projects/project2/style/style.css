@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100vw;
+    height: 50vh;
+}
+
+container-img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#properties {
+    position: relative;
+    top: -30vh;
+    left: 55vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    gap: 1.5em;
+    width: 30vw;
+    height: 70vh;
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 1.5em;
+}
+
+
+
+#properties>h2 {
+    text-align: right;
+    font: normal normal 900 36px/53px Heebo;
+    color: #FFFFFF;
+    line-height: 2.5;
+    /* margin-bottom: 10px; */
+
+}
+
+#properties>p {
+    text-align: right;
+    font: normal normal normal 20px/29px Heebo;
+    color: #F9F9F9;
+    line-height: 1.5;
+    margin-right: 72px;
+
+
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 1em; */
+    direction: rtl;
+
+
+
+}
+
+.form-control>label {
+    /* margin-top: 15px; */
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    color: #FFFFFF;
+
+
+}
+
+.form-control>input[type=submit] {
+    width: 166px;
+    height: 50px;
+    background: #D31C75 0% 0% no-repeat padding-box;
+    color: azure;
+
+}
+
+.form-control>input {
+
+    width: 23vw;
+    height: 50px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D31C75;
+    opacity: 1;
+
+    font: normal normal bold 22px/30px Heebo;
+    color: #FFFFFF;
+
+}
+
+#submit {
+    margin-top: 15px;
+    text-align: center;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+@media screen and (max-width:1000px) {
+    #container {
+        width: 100vw;
+        height: 200vw;
+    }
+
+    .form-control {
+
+        margin-bottom: 0em;
+    }
+
+    .form-control>label {
+        margin-top: 5px;
+
+        font: normal normal bold 14px/21px Heebo;
+
+
+
+    }
+
+    .form-control>input[type=submit] {
+        width: 76px;
+        height: 33px;
+
+
+
+    }
+
+    #submit {
+
+        font: normal normal bold 15px/20px Heebo;
+
+    }
+
+    .container-img>img {
+        width: 100vw;
+        height: 60vw;
+    }
+
+    #properties {
+        width: 80vw;
+        height: 55vh;
+        align-items: center;
+        justify-content: center;
+
+        padding: 55px;
+        padding-right: 0px;
+        /* margin-right: 20px; */
+
+
+
+        top: -120px;
+        left: 37px;
+    }
+
+    #form {
+        margin-right: 50px;
+
+
+
+
+    }
+
+    #properties>h2 {
+        width: 70vw;
+        text-align: center;
+        margin-right: 40px;
+
+        font: normal normal 900 25px/30px Heebo;
+
+        color: #FFFFFF;
+
+
+
+    }
+
+    #properties>p {
+        text-align: center;
+        font: normal normal normal 15px/22px Heebo;
+        margin-bottom: 0px;
+        margin-right: 50px;
+
+    }
+
+    .form-control>input {
+        width: 230px;
+        height: 28px;
+    }
+}
